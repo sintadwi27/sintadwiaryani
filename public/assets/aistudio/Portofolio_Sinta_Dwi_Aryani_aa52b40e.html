@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sinta Dwi Aryani · Portofolio Sistem Informasi</title>
+<meta name="description" content="Portofolio Sinta Dwi Aryani, mahasiswa Sistem Informasi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<style>
+:root{--bg:#FFFFFF;--bg2:#F3F7F4;--card:#FAFCFA;--bd:#D1DED5;--pri:#4F745F;--prih:#3F5E4C;--tx:#26382E;--mu:#5d7266;--pk:#FDF2F4;--pkb:#F5D0D9;--rose:#C7526D;--on:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#141b17;--bg2:#1a231e;--card:#1d2822;--bd:#33463b;--pri:#6f9a82;--prih:#85b199;--tx:#e8efea;--mu:#a3b5aa;--pk:#2a1d21;--pkb:#5a3540;--rose:#e58aa0;--on:#10170f}}
+html{scroll-padding-top:calc(5rem + env(safe-area-inset-top,0px))}
+body{font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:var(--bg);color:var(--tx);margin:0}
+.bg2{background:var(--bg2)}.card{background:var(--card);border:1px solid var(--bd);border-radius:1rem;transition:transform .25s,box-shadow .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--pri);box-shadow:0 12px 28px -14px rgba(79,116,95,.45)}
+.pink{background:var(--pk);border:1px solid var(--pkb);border-radius:1rem}
+.mu{color:var(--mu)}.rose{color:var(--rose)}.pri{color:var(--pri)}
+.btn{display:inline-block;padding:.75rem 1.4rem;border-radius:.75rem;font-weight:600;font-size:.95rem;transition:all .25s;cursor:pointer}
+.btn-p{background:var(--pri);color:var(--on)}.btn-p:hover{background:var(--prih);transform:translateY(-2px)}
+.btn-o{border:1.5px solid var(--pkb);color:var(--rose);background:transparent}.btn-o:hover{background:var(--pk);border-color:var(--rose);transform:translateY(-2px)}
+.nav a{color:var(--mu);font-size:.9rem;font-weight:500;transition:color .2s}.nav a:hover{color:var(--pri)}
+.kick{font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;color:var(--rose)}
+.rise{opacity:0;transform:translateY(14px);animation:rise .8s ease forwards}.d2{animation-delay:.15s}.d3{animation-delay:.3s}
+@keyframes rise{to{opacity:1;transform:none}}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rise,.reveal{animation:none;opacity:1;transform:none;transition:none}}
+input,textarea{background:var(--bg);border:1px solid var(--bd);color:var(--tx);border-radius:.75rem;padding:.7rem 1rem;width:100%;font:inherit;transition:border-color .2s}
+input:focus,textarea:focus{outline:none;border-color:var(--pri)}
+</style>
+</head>
+<body>
+<header class="sticky top-0 z-50 border-b" style="background:var(--bg);border-color:var(--bd);top:env(safe-area-inset-top,0px)">
+ <div class="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
+  <a href="#top" class="font-bold text-lg">Sinta Dwi Aryani</a>
+  <nav class="nav hidden lg:flex gap-7" aria-label="Navigasi utama">
+   <a href="#profil">Profil</a><a href="#prodi">Program Studi</a><a href="#minat">Fokus Minat</a><a href="#skill">Keterampilan</a><a href="#visi">Visi Karier</a>
+  </nav>
+  <div class="flex items-center gap-3">
+   <a href="#kontak" class="btn btn-p !py-2 !px-4 !text-sm">Hubungi Saya</a>
+   <button id="mb" class="lg:hidden p-2" aria-label="Menu"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+ </div>
+ <nav id="mn" class="nav hidden lg:hidden flex-col gap-3 px-5 pb-4" aria-label="Menu seluler">
+  <a href="#profil">Profil</a><a href="#prodi">Program Studi</a><a href="#minat">Fokus Minat</a><a href="#skill">Keterampilan</a><a href="#visi">Visi Karier</a>
+ </nav>
+</header>
+
+<main id="top">
+<section class="max-w-6xl mx-auto px-5 pt-14 pb-12 grid lg:grid-cols-2 gap-12 items-center">
+ <div>
+  <p class="kick rise">Mahasiswa Program Studi Sistem Informasi · Tech &amp; Business Enthusiast</p>
+  <h1 class="rise d2 text-4xl sm:text-5xl font-extrabold leading-tight mt-4">Halo! Saya Sinta, <span class="pri">Sistem Informasi</span> Enthusiast.</h1>
+  <p class="rise d3 mu mt-5 leading-relaxed">Saya Sinta Dwi Aryani, mahasiswa Universitas Komputama Cilacap Program Studi Sistem Informasi yang berfokus mempelajari bagaimana teknologi informasi dan pengelolaan data dapat dimanfaatkan untuk menyelesaikan permasalahan operasional, meningkatkan efisiensi pekerjaan, serta mendukung pengambilan keputusan yang tepat dalam dunia bisnis.</p>
+  <div class="rise d3 flex flex-wrap gap-3 mt-7">
+   <a href="#kontak" class="btn btn-p">Mulai Terhubung</a><a href="#proyek" class="btn btn-o">Lihat Portofolio</a>
+  </div>
+  <p class="mu text-sm font-medium mt-7">Berpikir Logis &amp; Analitis · Analisis Alur Sistem · Tata Kelola Data</p>
+ </div>
+ <figure class="mx-auto w-full max-w-sm">
+  <div class="p-3 rounded-[2rem]" style="border:1px solid var(--bd);background:var(--bg2)">
+   <div class="relative aspect-[4/5] rounded-3xl overflow-hidden flex items-center justify-center" style="background:linear-gradient(160deg,var(--pk),var(--bg2))">
+    <img id="foto" src="pas_foto_latar_biru_40a84452.jpeg" onerror="this.onerror=null;this.src='/assets/aistudio/pas_foto_latar_biru_40a84452.jpeg';" alt="Foto Profil Sinta Dwi Aryani - Pas Foto Latar Biru" class="absolute inset-0 w-full h-full object-cover">
+    <span id="ph" class="text-7xl font-extrabold pri opacity-60 hidden">SDA</span>
+   </div>
+  </div>
+  <figcaption class="text-center mt-4 text-sm font-semibold"><span class="rose">●</span> Mahasiswa Aktif · Sistem Informasi</figcaption>
+ </figure>
+</section>
+
+<section class="bg2 border-y" style="border-color:var(--bd)" aria-label="Empat pilar utama">
+ <div class="max-w-6xl mx-auto px-5 py-6 grid grid-cols-2 lg:grid-cols-4 gap-5 text-sm font-semibold">
+  <p><span class="rose">01.</span> Analisis Kebutuhan Sistem</p><p><span class="rose">02.</span> Pengelolaan &amp; Analisis Data</p>
+  <p><span class="rose">03.</span> Logika Pemrograman Aplikasi</p><p><span class="rose">04.</span> Teknologi untuk Bisnis</p>
+ </div>
+</section>
+
+<section id="profil" class="max-w-6xl mx-auto px-5 py-20 reveal">
+ <p class="kick">01 · Profil Diri</p>
+ <h2 class="text-3xl font-bold mt-3 max-w-3xl leading-snug">Membangun Pola Pikir Analitis &amp; Sistematis untuk Menghasilkan Solusi Digital</h2>
+ <div class="grid lg:grid-cols-5 gap-10 mt-8">
+  <p class="lg:col-span-3 mu leading-relaxed">Saya Sinta Dwi Aryani merupakan mahasiswa Universitas Komputama Cilacap Program Studi Sistem Informasi yang memiliki ketertarikan pada perkembangan teknologi informasi, pengelolaan data, dan pengembangan sistem digital. Saya tertarik mempelajari bagaimana teknologi dapat dimanfaatkan untuk menyelesaikan permasalahan, meningkatkan efisiensi pekerjaan, serta mendukung pengambilan keputusan dalam dunia bisnis. Sebagai mahasiswa, saya terus berupaya mengembangkan kemampuan berpikir logis, analitis, dan sistematis melalui proses pembelajaran serta praktik secara bertahap.</p>
+  <blockquote class="pink lg:col-span-2 p-6 italic leading-relaxed">“Bagi saya, teknologi bukan sekadar rangkaian kode atau infrastruktur, melainkan instrumen solutif untuk menyederhanakan alur kerja yang kompleks dan memberdayakan para pengambil keputusan.”</blockquote>
+ </div>
+ <div class="grid sm:grid-cols-3 gap-4 mt-10">
+  <article class="card p-5"><h3 class="font-bold">Pola Pikir Logis</h3></article>
+  <article class="card p-5"><h3 class="font-bold">Berorientasi Nilai Bisnis</h3></article>
+  <article class="card p-5"><h3 class="font-bold">Pembelajar Adaptif</h3></article>
+ </div>
+</section>
+
+<section id="prodi" class="bg2 py-20 reveal"><div class="max-w-6xl mx-auto px-5">
+ <p class="kick">02 · Tentang Program Studi</p>
+ <h2 class="text-3xl font-bold mt-3 max-w-3xl leading-snug">Konvergensi Strategis: Teknologi Informasi, Bisnis, dan Manajemen</h2>
+ <p class="mu leading-relaxed mt-6 max-w-4xl">Sistem Informasi merupakan bidang ilmu yang menggabungkan teknologi informasi, bisnis, dan manajemen untuk menghasilkan solusi yang sesuai dengan kebutuhan pengguna. Dalam program studi ini, saya mempelajari dasar-dasar pemrograman, pengelolaan basis data, analisis dan perancangan sistem, serta pemanfaatan teknologi untuk mendukung proses bisnis. Melalui pembelajaran tersebut, saya ingin memahami tidak hanya bagaimana suatu sistem dibangun, tetapi juga bagaimana sistem tersebut dapat memberikan manfaat nyata, meningkatkan produktivitas, dan membantu menyelesaikan permasalahan secara efektif.</p>
+ <div class="grid md:grid-cols-3 gap-5 mt-10">
+  <article class="card p-6"><h3 class="font-bold text-lg">Teknologi Informasi</h3><p class="mu text-sm mt-2">Pemrograman · Basis Data · Infrastruktur</p></article>
+  <article class="card p-6"><h3 class="font-bold text-lg">Bisnis &amp; Manajemen</h3><p class="mu text-sm mt-2">Proses Bisnis · Nilai Tambah · Efisiensi</p></article>
+  <article class="card p-6"><h3 class="font-bold text-lg">Kebutuhan Pengguna</h3><p class="mu text-sm mt-2">Human-Centered Design · Peningkatan Produktivitas</p></article>
+ </div>
+</div></section>
+
+<section id="minat" class="max-w-6xl mx-auto px-5 py-20 reveal">
+ <p class="kick">03 · Minat &amp; Bidang Pengembangan</p>
+ <h2 class="text-3xl font-bold mt-3">Empat Pilar Keahlian yang Terus Dikembangkan</h2>
+ <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
+  <article class="card p-6"><span class="rose font-bold">A</span><h3 class="font-bold mt-2">Pengembangan Sistem Informasi</h3><p class="mu text-sm mt-3 leading-relaxed">Mempelajari proses analisis kebutuhan, perancangan, dan pengembangan sistem yang dapat membantu pengguna menjalankan aktivitas secara lebih terstruktur.</p></article>
+  <article class="card p-6"><span class="rose font-bold">B</span><h3 class="font-bold mt-2">Analisis dan Pengelolaan Data</h3><p class="mu text-sm mt-3 leading-relaxed">Mempelajari cara mengumpulkan, mengolah, menyimpan, dan menganalisis data agar dapat menghasilkan informasi yang berguna untuk pengambilan keputusan.</p></article>
+  <article class="card p-6"><span class="rose font-bold">C</span><h3 class="font-bold mt-2">Pemrograman dan Pengembangan Aplikasi</h3><p class="mu text-sm mt-3 leading-relaxed">Mempelajari logika pemrograman dan pengembangan aplikasi sebagai sarana untuk menciptakan solusi digital.</p></article>
+  <article class="card p-6"><span class="rose font-bold">D</span><h3 class="font-bold mt-2">Teknologi untuk Bisnis</h3><p class="mu text-sm mt-3 leading-relaxed">Mempelajari bagaimana teknologi dapat digunakan untuk meningkatkan efisiensi operasional, mengelola transaksi, dan mendukung perkembangan suatu usaha.</p></article>
+ </div>
+</section>
+
+<section id="skill" class="bg2 py-20 reveal"><div class="max-w-6xl mx-auto px-5">
+ <p class="kick">04 · Keterampilan</p>
+ <h2 class="text-3xl font-bold mt-3">Matriks Keterampilan</h2>
+ <div class="grid md:grid-cols-2 gap-6 mt-10">
+  <article class="card p-7"><h3 class="font-bold text-lg pri">Keterampilan Teknis</h3><ul class="mu mt-4 space-y-3 text-sm">
+   <li>Dasar-dasar pemrograman</li><li>Pengolahan data menggunakan spreadsheet</li><li>Dasar-dasar basis data</li><li>Analisis dan perancangan sistem informasi</li><li>Pemahaman proses bisnis</li></ul></article>
+  <article class="card p-7"><h3 class="font-bold text-lg rose">Keterampilan Nonteknis</h3><ul class="mu mt-4 space-y-3 text-sm">
+   <li>Berpikir kritis dan analitis</li><li>Pemecahan masalah (Problem Solving)</li><li>Komunikasi yang efektif</li><li>Kerja sama dalam tim</li><li>Manajemen waktu</li><li>Kemampuan belajar secara mandiri</li></ul></article>
+ </div>
+</div></section>
+
+<section id="visi" class="max-w-6xl mx-auto px-5 py-20 reveal">
+ <p class="kick">05 · Visi &amp; Tujuan Karier</p>
+ <blockquote class="text-2xl sm:text-3xl font-bold leading-snug mt-4 max-w-4xl">“Menjadi individu yang kompeten di bidang Sistem Informasi, mampu beradaptasi dengan perkembangan teknologi, serta dapat memberikan kontribusi melalui pemanfaatan teknologi yang tepat guna.”</blockquote>
+ <div class="grid md:grid-cols-2 gap-6 mt-10">
+  <article class="card p-6"><h3 class="font-bold">Komitmen Pencapaian</h3><ul class="mu text-sm mt-4 space-y-3"><li>Meningkatkan kemampuan teknis berkelanjutan</li><li>Memperluas wawasan perkembangan teknologi informasi</li><li>Membangun pengalaman melalui proyek dan kegiatan relevan</li></ul></article>
+  <article class="pink p-6"><h3 class="font-bold">Target Peran Masa Depan</h3><p class="mt-4 font-semibold rose">System Analyst · Data Analyst · Information Systems Developer</p></article>
+ </div>
+</section>
+
+<section id="proyek" class="bg2 py-20 reveal"><div class="max-w-6xl mx-auto px-5">
+ <p class="kick">06 · Komitmen Pengembangan Diri</p>
+ <p class="mu leading-relaxed mt-4 max-w-4xl">Saya percaya bahwa perkembangan teknologi menuntut setiap individu untuk terus belajar dan beradaptasi. Oleh karena itu, saya berkomitmen untuk meningkatkan kompetensi melalui pembelajaran berkelanjutan, praktik langsung, serta evaluasi terhadap setiap proses yang saya jalani. Bagi saya, portofolio ini bukan hanya dokumentasi perjalanan akademik, tetapi juga representasi dari proses belajar, perkembangan kemampuan, dan tujuan yang ingin saya capai di masa depan.</p>
+ <h3 class="font-bold text-xl mt-12">Studi Kasus Proyek</h3>
+ <div class="grid md:grid-cols-3 gap-5 mt-5">
+  <article class="card p-6"><span class="rose font-bold text-sm">Proyek 1</span><p class="font-semibold mt-2">Perancangan Sistem Informasi Inventaris &amp; Stok Barang</p></article>
+  <article class="card p-6"><span class="rose font-bold text-sm">Proyek 2</span><p class="font-semibold mt-2">Model Analisis Data Penjualan Menggunakan Spreadsheet</p></article>
+  <article class="card p-6"><span class="rose font-bold text-sm">Proyek 3</span><p class="font-semibold mt-2">Perancangan Skema Basis Data Relasional Manajemen Akademik</p></article>
+ </div>
+</div></section>
+
+<section id="kontak" class="max-w-6xl mx-auto px-5 py-20 reveal">
+ <p class="kick">Hubungi Saya</p>
+ <h2 class="text-3xl font-bold mt-3">Mari Terhubung dan Berkolaborasi</h2>
+ <div class="grid lg:grid-cols-2 gap-10 mt-8">
+  <div>
+   <p class="mu leading-relaxed">Tertarik berdiskusi atau ingin mengenal saya lebih jauh? Kirim pesan lewat formulir, atau hubungi langsung melalui email.</p>
+   <p class="font-semibold mt-6 break-all" id="em">sintaryn27@gmail.com</p>
+   <button id="cp" class="btn btn-o mt-4">Salin Email</button>
+  </div>
+  <form id="fm" class="space-y-4">
+   <input id="n" required placeholder="Nama Anda" aria-label="Nama">
+   <input id="e" type="email" required placeholder="Email Anda" aria-label="Email">
+   <textarea id="m" rows="4" required placeholder="Pesan Anda" aria-label="Pesan"></textarea>
+   <button type="submit" class="btn btn-p">Kirim Pesan</button>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="border-t" style="border-color:var(--bd)">
+ <p class="max-w-6xl mx-auto px-5 py-8 text-sm mu text-center">Copyright © 2026 Sinta Dwi Aryani · Program Studi Sistem Informasi</p>
+</footer>
+
+<script>
+document.getElementById('mb').onclick=function(){var n=document.getElementById('mn');n.classList.toggle('hidden');n.classList.toggle('flex')};
+document.querySelectorAll('#mn a').forEach(function(a){a.onclick=function(){var n=document.getElementById('mn');n.classList.add('hidden');n.classList.remove('flex')}});
+document.getElementById('cp').onclick=function(){var b=this,t='sintaryn27@gmail.com';
+ (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='Tersalin ✓'}).catch(function(){b.textContent='Salin manual: '+t});
+ setTimeout(function(){b.textContent='Salin Email'},2200)};
+document.getElementById('fm').onsubmit=function(ev){ev.preventDefault();
+ var s=encodeURIComponent('Pesan dari '+n.value),b=encodeURIComponent(m.value+'\n\nDari: '+n.value+' ('+e.value+')');
+ location.href='mailto:sintaryn27@gmail.com?subject='+s+'&body='+b};
+var f=document.getElementById('foto');if(f.getAttribute('src')){f.classList.remove('hidden');document.getElementById('ph').classList.add('hidden')}
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('on');io.unobserve(x.target)}})},{threshold:.1});
+document.querySelectorAll('.reveal').forEach(function(x){io.observe(x)});
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Portofolio Sinta Dwi Aryani - Sistem Informasi",
+  "description": "Website portofolio resmi Sinta Dwi Aryani, mahasiswa Program Studi Sistem Informasi Universitas Komputama Cilacap yang berfokus pada analisis sistem, tata kelola data, dan teknologi bisnis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
